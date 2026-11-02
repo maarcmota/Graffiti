@@ -1,0 +1,9 @@
+﻿<Solution>
+  <Project Path="MalbersAnimations.csproj" />
+  <Project Path="MalbersAnimations.Editor.csproj" />
+  <Project Path="Assembly-CSharp.csproj" />
+  <Project Path="Assembly-CSharp-Editor.csproj" />
+  <Project Path="MalbersAnimations.InputSystem.csproj" />
+  <Project Path="MalbersAnimations.Cinemachine.csproj" />
+  <Project Path="ZonaShow.ZsAnimal.csproj" />
+</Solution>

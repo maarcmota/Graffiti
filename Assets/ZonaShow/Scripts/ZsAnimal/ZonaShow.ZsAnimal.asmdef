@@ -1,0 +1,7 @@
+{
+  "name": "ZonaShow.ZsAnimal",
+  "references": [
+    "Unity.InputSystem"
+  ],
+  "autoReferenced": true
+}
