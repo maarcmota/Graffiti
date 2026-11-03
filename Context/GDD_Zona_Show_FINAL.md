@@ -14,8 +14,6 @@ A progressão prevê um tutorial em que o personagem dispõe de suas habilidades
 
 A direção visual combina 3D estilizado, elementos flat e referências de pintura à mão, com formas simplificadas e cores expressivas.
 
-> “O resumo é obrigatório e deve ressaltar o objetivo, o método, os resultados e as conclusões do documento. A ordem e a extensão destes itens dependem do tipo de resumo (informativo ou indicativo) e do tratamento que cada item recebe no documento original. O resumo deve ser precedido da referência do documento, com exceção do resumo inserido no próprio documento. O resumo deve ser composto de uma sequência de frases concisas, afirmativas e não de enumeração de tópicos. Recomenda-se o uso de parágrafo único. A primeira frase deve ser significativa, explicando o tema principal do documento. A seguir, deve-se indicar a informação sobre a categoria do tratamento (memória, estudo de caso, análise da situação etc.). Deve-se usar o verbo na voz ativa e na terceira pessoa do singular. As palavras-chave devem figurar logo abaixo do resumo, antecedidas da expressão Palavras-chave:, separadas entre si por ponto e finalizadas também por ponto. Devem-se evitar: a) símbolos e contrações que não sejam de uso corrente; b) fórmulas, equações, diagramas etc., que não sejam absolutamente necessários; quando seu emprego for imprescindível, defini-los na primeira vez que aparecerem. Quanto a sua extensão o resumo deve ter de 150 a 500 palavras.”
-
 ## REFERENCIAS
 
 - Jogos de Infiltração.
