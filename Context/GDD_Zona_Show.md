@@ -19,13 +19,19 @@ Autor: Marcos Mota.
 Cooprodução: Marcos Mota e Gustavo Almeida.
 Publicação: Gustavo Almdeia.
 
-## RESUMO **{TODO}**
+## RESUMO 
 
-Resumo: durante uma Ditadura militar, surge o movimento do movimento hip hop.
+Resumo: Durante uma Ditadura Militar, surge o movimento Hip-hop.
 
-O resumo é obrigatório e deve ressaltar o objetivo, o método, os resultados e as conclusões do documento. A ordem e a extensão destes itens dependem do tipo de resumo (informativo ou indicativo) e do tratamento que cada item recebe no documento original. O resumo deve ser precedido da referência do documento, com exceção do resumo inserido no próprio documento. O resumo deve ser composto de uma sequência de frases concisas, afirmativas e não de enumeração de tópicos. Recomenda-se o uso de parágrafo único. A primeira frase deve ser significativa, explicando o tema principal do documento. A seguir, deve-se indicar a informação sobre a categoria do tratamento (memória, estudo de caso, análise da situação etc.). Deve-se usar o verbo na voz ativa e na terceira pessoa do singular. As palavras-chave devem figurar logo abaixo do resumo, antecedidas da expressão Palavras-chave:, separadas entre si por ponto e finalizadas também por ponto. Devem-se evitar: a) símbolos e contrações que não sejam de uso corrente; b) fórmulas, equações, diagramas etc., que não sejam absolutamente necessários; quando seu emprego for imprescindível, defini-los na primeira vez que aparecerem. Quanto a sua extensão o resumo deve ter de 150 a 500 palavras.
+Este documento apresenta o conceito de Zona Show, um jogo 3D de infiltração, exploração e progressão. A narrativa acompanha Antenor, também conhecido como Cão Fila, em acontecimentos que se desenrolam entre 1970 e 2000. Após construir uma comunidade e perder tudo em um incêndio, ele assume uma nova identidade e parte em busca de vingança. A história aborda a cultura hip-hop, uma fraude eleitoral e a relação do protagonista com seu parceiro revolucionário, Shotgun.
 
-## REFERENCIAS **{TODO}**
+A progressão prevê um tutorial em que o personagem dispõe de suas habilidades, um prólogo que o apresenta com capacidades limitadas e uma etapa de jogo livre, na qual pode evoluir e desbloquear itens. O jogador escolhe personas para as operações de infiltração, enquanto a base principal funciona como uma pequena fábrica que gera recursos durante a exploração
+
+A direção visual combina 3D estilizado, elementos flat e referências de pintura à mão, com formas simplificadas e cores expressivas.
+
+> “O resumo é obrigatório e deve ressaltar o objetivo, o método, os resultados e as conclusões do documento. A ordem e a extensão destes itens dependem do tipo de resumo (informativo ou indicativo) e do tratamento que cada item recebe no documento original. O resumo deve ser precedido da referência do documento, com exceção do resumo inserido no próprio documento. O resumo deve ser composto de uma sequência de frases concisas, afirmativas e não de enumeração de tópicos. Recomenda-se o uso de parágrafo único. A primeira frase deve ser significativa, explicando o tema principal do documento. A seguir, deve-se indicar a informação sobre a categoria do tratamento (memória, estudo de caso, análise da situação etc.). Deve-se usar o verbo na voz ativa e na terceira pessoa do singular. As palavras-chave devem figurar logo abaixo do resumo, antecedidas da expressão Palavras-chave:, separadas entre si por ponto e finalizadas também por ponto. Devem-se evitar: a) símbolos e contrações que não sejam de uso corrente; b) fórmulas, equações, diagramas etc., que não sejam absolutamente necessários; quando seu emprego for imprescindível, defini-los na primeira vez que aparecerem. Quanto a sua extensão o resumo deve ter de 150 a 500 palavras.”
+
+## REFERENCIAS **{TODO - WIP }**
 
 - Jogos de Infiltração.
 - Smiling Friends (Humor critico).
@@ -33,11 +39,17 @@ O resumo é obrigatório e deve ressaltar o objetivo, o método, os resultados e
 
 Palavras-chave: #Palavra 1, #Palavra 2, #Palavra 3, #Palavra 4.
 
-## ABSTRACT **{TODO}**
+## ABSTRACT 
 
-The abstract is mandatory and should outline the purpose, methodology, results and conclusions of the paper. The order and extent of these items depend on the type of summary (informative or indicative) and the treatment they receive every item in the original document. The abstract should be preceded by the reference document, with the exception of the abstract entered in the document itself. The abstract should consist of a sequence of concise, and not affirmative sentences enumeration of topics. The use of single paragraph is recommended. The first sentence should be meaningful, explaining the main theme of the document. Next, you should indicate the information on the category of treatment (memory, case studies, situation analysis etc.). You should use the verb in the active voice and third person singular. The keywords should appear just below the summary, preceded by the expression Keywords:, separated other by point-by-point and also finalized. Should be avoided: a) symbols and contractions that are not in current use; b) formulas, equations, diagrams, etc., that are not absolutely necessary, when your job is essential, set them the first time they appear. As its extension the abstract should be 150-500 words.
+Summary: During a military dictatorship, the hip-hop movement emerges.
 
-Keywords: Word 1, Word 2, Word 3, Word 4.
+This document presents the concept for Zona Show, a 3D game centered on stealth, exploration, and progression. The story follows Antenor, also known as Cão Fila, through events that unfold between 1970 and 2000. After building a community and losing everything in a fire, he assumes a new identity and sets out on a quest for revenge. The story explores hip-hop culture, electoral fraud, and the protagonist’s relationship with his revolutionary partner, Shotgun.
+
+Progression includes a tutorial in which the character has access to all his abilities, a prologue that introduces him with limited capabilities, and a free-play phase in which he can grow stronger and unlock items. The player chooses personas for stealth missions, while the main base functions as a small factory that generates resources during exploration.
+
+The visual direction combines stylized 3D, flat elements, and hand-painted influences, with simplified shapes and expressive colors.
+
+**{TODO}** Keywords: Word 1, Word 2, Word 3, Word 4.
 
 ## LISTA DE ILUSTRAÇÕES **{TODO}**
 
@@ -59,62 +71,62 @@ IBGE Instituto Brasileiro de Geografia e Estatística
 
 - 02/11/2021 – Início do GDD. Versão 0.1.
 
-## SUMÁRIO **{TODO}**
+## SUMÁRIO
 
-- 1 DEFINIÇÃO DO JOGO 14
-  - 1.1 Nome do jogo 14
-  - 1.2 High concept do jogo 14
-  - 1.3 Gênero 14
-  - 1.4 Público alvo 14
-  - 1.5 Game flow 14
-  - 1.6 Estilo estético 14
-  - 1.7 Fundamentação do tema do jogo 14
-  - 1.8 Equipe de desenvolvimento 15
-  - 1.9 Inspirações 15
-- 2 GAMEPLAY E MECÂNICAS 16
-  - 2.1 Gameplay 16
-  - 2.2 Progressão do jogo 16
-  - 2.3 Estrutura de missões/desafios 16
-  - 2.4 Objetivos do jogo 16
-  - 2.5 Mecânicas 16
-  - 2.6 Movimentação dentro do jogo/Física 16
-  - 2.7 Objetos 16
-  - 2.8 Ações 16
-  - 2.9 Combate 17
-  - 2.10 Economia 17
-  - 2.11 Opções de jogo 17
-  - 2.12 Salvar e Replay 17
-  - 2.13 Easter eggs, cheats e conteúdo bônus 17
-- 3 ARTE DO JOGO 19
-  - 3.1 Elementos visuais 19
-  - 3.2 Elementos sonoros 19
-- 4 NARRATIVA, AMBIENTAÇÃO E PERSONAGENS 20
-  - 4.1 História e narrativa 20
-  - 4.2 Mundo do jogo 20
-  - 4.3 Áreas do jogo 20
-  - 4.4 Fases (níveis) 20
-  - 4.5 Fase de treino/tutorial 20
-- 5 INTERFACE 21
-  - 5.1 Sistema visual 21
-  - 5.2 Sistema de controle 21
-  - 5.3 Sistema de ajuda 21
-- 6 INTELIGÊNCIA ARTIFICIAL (IA) 22
-  - 6.1 Oponentes e IA inimiga 22
-  - 6.2 IAs parceiras ou não inimigas 22
-  - 6.3 IA de suporte 22
-- 7 ASPECTOS TÉCNICOS 23
-  - 7.1 Plataformas de produção 23
-  - 7.2 Hardware e software de desenvolvimento 23
-  - 7.3 Requisitos e uso de rede 23
-- 8 MODELO DE NEGÓCIOS 24
-- 9 TESTES E VALIDAÇÃO DO JOGO 25
-- 10 CONTRIBUIÇÕES DAS DISCIPLINAS 26
-- 11 LIÇÕES APRENDIDAS 27
-- REFERÊNCIAS 28
-- GLOSSÁRIO 29
-- APÊNDICE A – Aqui vai o título do apêndice 30
-- APÊNDICE B – Instruções para utilização deste documento 31
-- ANEXO A – Aqui vai o título do anexo 33
+- 1 DEFINIÇÃO DO JOGO
+  - 1.1 Nome do jogo 
+  - 1.2 High concept do jogo
+  - 1.3 Gênero 
+  - 1.4 Público alvo 
+  - 1.5 Game flow 
+  - 1.6 Estilo estético 
+  - 1.7 Fundamentação do tema do jogo 
+  - 1.8 Equipe de desenvolvimento 
+  - 1.9 Inspirações 
+- 2 GAMEPLAY E MECÂNICAS 
+  - 2.1 Gameplay 
+  - 2.2 Progressão do jogo 
+  - 2.3 Estrutura de missões/desafios 
+  - 2.4 Objetivos do jogo 
+  - 2.5 Mecânicas 
+  - 2.6 Movimentação dentro do jogo/Física 
+  - 2.7 Objetos
+  - 2.8 Ações 
+  - 2.9 Combate 
+  - 2.10 Economia 
+  - 2.11 Opções de jogo 
+  - 2.12 Salvar e Replay 
+  - 2.13 Easter eggs, cheats e conteúdo bônus
+- 3 ARTE DO JOGO 
+  - 3.1 Elementos visuais 
+  - 3.2 Elementos sonoros 
+- 4 NARRATIVA, AMBIENTAÇÃO E PERSONAGENS 
+  - 4.1 História e narrativa 
+  - 4.2 Mundo do jogo
+  - 4.3 Áreas do jogo 
+  - 4.4 Fases (níveis)
+  - 4.5 Fase de treino/tutorial
+- 5 INTERFACE 
+  - 5.1 Sistema visual
+  - 5.2 Sistema de controle 
+  - 5.3 Sistema de ajuda
+- 6 INTELIGÊNCIA ARTIFICIAL (IA) 
+  - 6.1 Oponentes e IA inimiga
+  - 6.2 IAs parceiras ou não inimigas
+  - 6.3 IA de suporte
+- 7 ASPECTOS TÉCNICOS
+  - 7.1 Plataformas de produção
+  - 7.2 Hardware e software de desenvolvimento
+  - 7.3 Requisitos e uso de red
+- 8 MODELO DE NEGÓCIOS
+- 9 TESTES E VALIDAÇÃO DO JOGO
+- 10 CONTRIBUIÇÕES DAS DISCIPLINAS
+- 11 LIÇÕES APRENDIDAS
+- REFERÊNCIAS
+- GLOSSÁRIO
+- APÊNDICE A – Aqui vai o título do apêndice
+- APÊNDICE B – Instruções para utilização deste documento
+- ANEXO A – Aqui vai o título do anexo 
 
 ## 1 DEFINIÇÃO DO JOGO
 
@@ -122,8 +134,10 @@ IBGE Instituto Brasileiro de Geografia e Estatística
 Zona Show
 
 alt: Graffiti
-### 1.2 High concept do jogo **{TODO}** 
-Viajando pelo país, seu papel é ajudar Castro, o castor. Auxiliando-o na reciclagem de materiais descartados incorretamente pelas pessoas.
+
+### 1.2 High concept do jogo
+
+É preciso pintar paredes para que a Zona continue Show. Mas isso é contra as regras, mas não é preciso pedir permissão se eles não virem você passando.
 
 ### 1.3 Gênero **{TODO}**
 Puzzle. Quebra-cabeças resolvidos por fase, onde há mais de uma solução. O jogador é desafiado a construir um fluxo de máquinas e tentar gerenciá-lo ao longo do estágio, tentando obter o maior rendimento possível. “Craft Again!” Teve fortes influências de “SandShip Crafting Factory”, “SpaceChem”, “Opus Magnum”, “Factorio”, os quais são jogos de mesmo estilo, contendo um “Input” (Entrada de elementos) e um “Output” (Saída de elementos) onde o objetivo é conectá-los e processar seus elementos.

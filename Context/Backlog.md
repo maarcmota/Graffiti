@@ -10,13 +10,30 @@ Qual é o objetivo de cada run? Quanto tempo, em média, deve durar cada run? (1
 
 Collabs: O quao abrangente é a ideia e como ela se relaciona com jogos brasileiros?
 
-# ZONASHOW - ITENS:
+
+# ZONASHOW - PROTOTIPO PLATAFORMA:
+
+- Movimentação
+    Pulo na parede
+    Rolamento
+    Agarrar na beirada
+    Agachar
+
+- Level design basico - Casarão
+- Sistema de inimigos
+- Sistema de itens
+- Atirar com Pistola
+- Graffiti.
+- Vida, morrer, atacar ser atacado, etc.
+
+# ITENS:
 
 Ferramentas: Escada, Caixa, 
 
 Tinta: Balde de tinta e Pincel, Balde de tinta e Rolo, Lata Spray de tinta.
 
 Armas: Pistola Tranquilizante, Rifle Paint Ball, Bazooka de Tinta. Granada de Fumaça de tinta
+
 
 
 # ZONASHOW - Quadro de Tarefas
@@ -114,6 +131,7 @@ Armas: Pistola Tranquilizante, Rifle Paint Ball, Bazooka de Tinta. Granada de Fu
 Ideia: apos fazer o mesmo grafitti 15 vezes, é aumentado a durabilidade dele na parede (Mudar visualmente, grafitti totalmente preenchido).
 
 Ideais de personagens: IT GUY, Lider de Umbanda, Revolucionario, Fest (cara dos trens, graffiti). Vendedor esquisito.
+
 
 
 
