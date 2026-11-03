@@ -2,7 +2,7 @@
 
 > “São Paulo, 2026”
 
-Documentação de projeto submetida como concepção do jogo titulado 'Zona Show', pelo criador Marcos Mota. Cooproduzido por Marcos Mota e Gustavo Almeida.
+Documentação de projeto submetida como concepção do jogo titulado 'Zona Show', pelo criador Marcos Mota. Cooproduzido por Marcos Mota e Gustavo Almeida. Publicação por Perfomance Popular, uma publisher de Gustavo Almeida.
 
 
 ## AGRADECIMENTOS **{TODO}**
