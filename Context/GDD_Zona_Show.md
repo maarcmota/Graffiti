@@ -69,7 +69,7 @@ IBGE Instituto Brasileiro de Geografia e Estatística
 
 ## HISTÓRICO DE REVISÕES 
 
-- 02/11/2021 – Início do GDD. Versão 0.1.
+- 02/11/2021 – Início do GDD. Versão Base 0.1.
 
 ## SUMÁRIO
 
@@ -139,31 +139,41 @@ alt: Graffiti
 
 É preciso pintar paredes para que a Zona continue Show. Mas isso é contra as regras, mas não é preciso pedir permissão se eles não virem você passando.
 
-### 1.3 Gênero **{TODO}**
-Puzzle. Quebra-cabeças resolvidos por fase, onde há mais de uma solução. O jogador é desafiado a construir um fluxo de máquinas e tentar gerenciá-lo ao longo do estágio, tentando obter o maior rendimento possível. “Craft Again!” Teve fortes influências de “SandShip Crafting Factory”, “SpaceChem”, “Opus Magnum”, “Factorio”, os quais são jogos de mesmo estilo, contendo um “Input” (Entrada de elementos) e um “Output” (Saída de elementos) onde o objetivo é conectá-los e processar seus elementos.
+### 1.3 Gênero
+Stealth. "Zona Show" Tem fortes influencias de 'Metal Gear Solid 5: The Phantom Pain', 'Hotline Miami' e também 'Marc Ecko's Getting Up: Contents Under Pressure', os quais são jogos de mesmo estilo. Metal Gear pela Infiltração, Hotline Miami pela Personificação e Acidez, e Marc Ecko's pela Vanguarda em jogos de Graffiti.
 
-### 1.4 Público alvo **{TODO}**
+### 1.4 Público alvo **{TODO}** **[GUSTAVO GG2 ALMEIDA]**
 A partir do guia de classificação etária disponibilizado pela Secretaria Nacional da Justiça (SNJ), nosso jogo, “Craft Again!”, é classificado na categoria Livre, pois possui conteúdo informativo e sem a presença de violência.
 
-### 1.5 Game flow **{TODO}**
-Faça uma ilustração ou tabela que demonstre todas as telas que o jogo terá e como elas relacionam-se entre si.
+### 1.5 Game flow 
+
 
 O Game loop do joga sustenta a filosofia que o jogador deve passar 12 Minutos, entre estado de foco e relaxado.
 
-### 1.6 Estilo estético
+
+**{TODO}**
+> Faça uma ilustração ou tabela que demonstre todas as telas que o jogo terá e como elas relacionam-se entre si.
+
+### 1.6 Estilo estético **{TODO}**
 O estilo estético bebe de muitas fontes. O jogo apresenta uma junção de 3D Flat, com 3D estilizado e até o 3D Hand-painted, tornando o estilo estético único, porém familiar. Escolhemos esse estilo porque por mais que a Reciclagem seja um problema crítico e mundial, queremos passar isso com um tema lúdico, onde o jogador poderá aprender um pouco enquanto se diverte. Com isso, o cartunesco, simplificado e colorido, foi a melhor opção. A inspiração visual inicial foram jogos como: “Overwatch” e “Ratchet and Clank”, pela forma como os visuais chamavam muita atenção, principalmente em máquinas. Porém logo tivemos uma abordagem mais simplificada e cômica, que nos ajudaria muito a respeito do tempo de desenvolvimento. “Overland” foi um título que abriu nossos olhos de como poderíamos poupar muito tempo de desenvolvimento simplificando os modelos 3D e ainda sim ganhar um apelo visual. A partir disso títulos como “Moving Out” e “Tools Up” se tornaram as inspirações chave para juntar um visual apelativo e modelos 3D simplificados, que casariam perfeitamente com a nossa proposta de jogo.
 
 ### 1.7 Fundamentação do tema do jogo
 
 ### 1.8 Equipe de desenvolvimento
+
+Ao criador Marcos Mota, Artista.
+
 A equipe de desenvolvimento pelo Estúdio Fantasia “Sossego Studios”, o qual foi fundado pelos alunos da Faculdade Impacta. Integrantes:
   - Marcelo Carlos Agostinho Junior, Programador;
   - Marcos Vinícius “marc” Mota de Jesus, Artista 3D;
   - Ruy “Jhin” Emerich Carulli, Concept Art;
   - Lucas Vinícius “Effect” Barbudez Menuchi, Documentação e Sonoplastia;
 
+A equipe de publicação Perfomance Popular, ao qual Integra: Gustavo Almeida.
+
 ### 1.9 Inspirações
-A ideia se iniciou com “Opus Magnum” onde pegamos a ideia de ter uma “Entrada” e "Saída", e uma transformação de elementos. Então complementando-as com ideias de jogos do mesmo estilo como “Factorio”, “InfiniFactory”, “Sandship Crafting Factory“, “Dyson Sphere Program”, “SpaceChem”, os quais são muito focados em automação e otimização de recursos. Seguido deles, outros jogos também foram muito importantes, graficamente e mecanicamente em alguns aspectos, como “Moving Out”, “Overcooked” e “Among Us”. Que são dois jogos Arcade com mecânicas de movimentação e interação muito únicas e divertidas. “Overland” foi nossa inspiração inicial para o desenvolvimento artístico, pois apresentava uma arte muito refinada, com um custo baixo de produção.
+
+No Sun to Worship, Metal Gear Solid 5: The Phantom Pain, Call of Duty: Black Ops 3 - Zombies Mode (Fator Aleatoriedade), Hades ou Risk of Rain 2 (pelo fator "run" de tentar chegar mais longe), HotLine Miami...
 
 ### 2.2 Progressão do jogo
 
@@ -187,7 +197,7 @@ Inimigos seguem uma hierarquia, se tornando cada vez mais desafiadores. **{TODO}
 
 Base Principal funciona como pocket factory. Geração de Recursos é feita enquanto você explora as fases.
 
-### 2.3 Estrutura de missões/desafios **{TODO}**
+### 2.3 Estrutura de missões/desafios
 O jogo é dividido entre areas. Elas estão espacialmente num mundo aberto, porém o jogador é apenas capaz de acessar areas vizinhas através da viagem rapida. O jogador deve ultilizar o mapa para acessar as areas, após isso o jogador vê uma animação do personagem chegando de carro na area.
 
 As missões sempre voltam ao seu estado pleno ao serem reiniciadas.
@@ -221,7 +231,7 @@ Comprar itens **?**
 
 Com a finalidade de desenvolver um contexto ao jogo, O jogo possui três passagens em diferentes anos. Um prólogo que se passa no ano 2000, aqui o jogador está em seu estado pleno de habilidades.
 
-## 2000: A Fabrica (40 Minutos)
+**2000: A Fabrica (40 Minutos)**
 
 Após acordar do que parece ser uma grande ressaca, você está na traseira de uma van, com seu parceiro de revolução, para o que parece ser uma invasão a uma fábrica. Você tenta se recordar do que aconteceu, quem são essas pessoas, e onde você está fazendo, mas não consegue. Apenas o que escuta ao fundo é a teletela anunciando o resultado das eleições parciais. O Grande Irmão está à frente por 65%, grandes chances de o Coronel Magalhães vencer no primeiro turno.
 
@@ -229,13 +239,13 @@ Você e seu parceiro entram na fábrica - Ela parece abandonada. Você tem o com
 
 Vocês escutam um barulho, isso não parece normal. Vocês veem luzes entrando pelas janelas, não há saída, vocês estão cercados. Vocês são colocados na mala de um carro, e devem fugir. Os policiais não estão aqui para prendê-los, estão aqui para matá-los. Após um breve caminho você é tirado do porta-malas e percebe que está a beira de um Rio, os policiais são misericordiosos, não demoram a colocar um tiro em sua cabeça.
 
-## 1970: Cão Fila KM 26 (1 Horas e 30 Minutos)
+**1970: Cão Fila KM 26 (1 Horas e 30 Minutos)**
 
 Você agora controla Antenor (Lara Campos), um homem idoso de 60 anos. Você está atrás de uma vida digna, acha uma pequena cidade, onde apenas um líder de umbanda reside. Ele te diz que o casarão cheio de cachorros abandonados, está vago, você pode ocupar se cuidar dos caninos.
 
 Para isso você deve cumprir o objetivo: Anuncie na rodovia através de avisos, para que você consiga trocar os animais por Crédito Social e ajudar o líder da comunidade. E assim o faz, nascer 'Cão Fila KM 26', o nome que se refere a você por conta dos anúncios. com o crédito social que você consegue vendendo os animais, novas casas são erguidas, e a comunidade se torna um lugar mais seguro.
 
-## 1999: A morte (20 Minutos)
+**1999: A morte (20 Minutos)**
 
 Muito tempo se passou, você viveu uma vida tranquila na sua comunidade - Ela está fortalecida, Você é conhecido e se sente completo. Certo dia, a água vinda da estação de tratamento de água é cortada. E você decide verificar o que ocorreu, lá parece abandonado, o fornecimento parece ter sido cortado a dias. Nenhum funcionário.
 
@@ -243,7 +253,7 @@ Você decide voltar, ao chegar na comunidade, encontra uma visão aterradora. Me
 
 Já não é mais possível ter uma vida livre. É preciso incorporar uma persona. Você então a manifesta. Uma máscara de um cachorro rotundo de aparência sorridente, cobre as cicatrizes de queimadura que cobrem o seu corpo todo o seu corpo. Agora você possui uma nova identidade: Lego.
 
-## 2000: O Julgamento (28 Horas) 
+**2000: O Julgamento (28 Horas)**
 
 O jogador agora está acordado coberto de sangue à beira de uma represa. Você não está morto. Você está atrás de vingança.
 
@@ -256,26 +266,22 @@ Desfecho: A sua busca por vingança lhe levará até a —----------, responsáv
 
 ## 5 INTERFACE
 
-### 5.1 Sistema visual
-**{TODO}** HUD:
+### 5.1 Sistema visual **{TODO}**
+HUD:
 
-### 5.2 Sistema de controle
+### 5.2 Sistema de controle **{TODO}**
 O jogador utiliza o mouse para selecionar, construir, rotacionar e demolir estruturas. As teclas “W”,”A”,”S”,”D” e “Espaço” para a movimentação do personagem e a tecla “E” para interação com objetos.
 
-### 5.3 Sistema de ajuda
+### 5.3 Sistema de ajuda **{TODO}**
 - **Hints:** Na tela de loading o jogador se depara com pequenas dicas, que podem ajudar ele ao longo do gameplay;
 - **Livro de Receita:** É um livro de receitas que fica sempre disponível durante as fases, onde o jogador pode consultar tanto o'que ele pode fazer com determinado material, quanto consultar como fazer determinado material. Com essa junção de "o'que fazer com”, e “como fazer” ele tem acesso a todos os craftings do jogo.
 
 ### 5.4 Sistema de Upgrades **{TODO}**
 Atravez da interface, o jogador pode acessar uma tela, em que mostra 
 
+## 6 INTELIGÊNCIA ARTIFICIAL (IA) 
 
-
-
-
-## 6 INTELIGÊNCIA ARTIFICIAL (IA) **{TODO}**
-
-O jogo não possui uma inteligência artificial, para os inimigos[...]
+O jogo não possui uma inteligência artificial, para os inimigos[...] **{TODO}**
 
 
 ## 7 ASPECTOS TÉCNICOS **{TODO OG}**
