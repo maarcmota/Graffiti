@@ -11,20 +11,7 @@ Qual é o objetivo de cada run? Quanto tempo, em média, deve durar cada run? (1
 Collabs: O quao abrangente é a ideia e como ela se relaciona com jogos brasileiros?
 
 
-# ZONASHOW - PROTOTIPO PLATAFORMA:
 
-- Movimentação
-    Pulo na parede
-    Rolamento
-    Agarrar na beirada
-    Agachar
-
-- Level design basico - Casarão
-- Sistema de inimigos
-- Sistema de itens
-- Atirar com Pistola
-- Graffiti.
-- Vida, morrer, atacar ser atacado, etc.
 
 # ITENS:
 
@@ -40,6 +27,23 @@ Armas: Pistola Tranquilizante, Rifle Paint Ball, Bazooka de Tinta. Granada de Fu
 
 ## TAREFA PRINCIPAL ##
 # - [ ] Ter o Main Core Loop de espionagem muito bem descrito, e todas as conversas sobre o jogo mapeadas: Whatsapp, Notas, Docs.
+
+# ZONASHOW - PROTOTIPO PLATAFORMA:
+
+- Movimentação
+    Pulo na parede
+    Rolamento
+    Agarrar na beirada
+    Agachar
+
+- Level design basico - Casarão
+- Sistema de inimigos
+- Sistema de itens
+- Atirar com Pistola
+- Graffiti.
+- Vida, morrer, atacar ser atacado, etc.
+
+- [ ]  Colocar as escritas do ipad em texto 
 
 - [ ]  Resumo: durante uma Ditadura militar, surge o movimento do movimento hip hop.
 
