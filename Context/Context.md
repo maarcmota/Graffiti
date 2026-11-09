@@ -11,8 +11,21 @@
 
 ## Third-party tools and plugins
 
-- Document source or asset changes to third-party tools in this context, noting the affected tool/file, what changed, and why. Keep a separate summary for larger plugin overviews.
-- PaintCore change: `Assets\Plugins\CW\PaintCore\Required\Scripts\CwColor.cs` — replaced `[SerializeField]` on the nested `Contribution` class with `[System.Serializable]`, because the original attribute caused compiler error CS0592. The PaintCore assembly builds after this correction.
+- Document source or asset changes to third-party tools in this context, noting the affected tool/file, what changed, and why. Prefer project-specific prefab variants over editing vendor originals. Keep a separate summary for larger plugin overviews.
+
+### Vendor source changes
+
+- PaintCore: `Assets\Plugins\CW\PaintCore\Required\Scripts\CwColor.cs` replaces `[SerializeField]` on the nested `Contribution` class with `[System.Serializable]`; the original attribute caused compiler error CS0592.
+- Malbers Animations: `Assets\Malbers Animations\Common\Scripts\Animal Controller\ComboManager.cs` makes `ActiveComboSequence` return `null` if there is no active combo. `OnModeEnd` checks for a missing sequence, but its former property accessed `ActiveCombo.CurrentSequence` before that check and threw when a combo was not selected. This guard was exercised during an attack-release test without reproducing the exception.
+
+### PaintBall prototype
+
+- Scene: `Assets\ZonaShow\Scenes\1 - PlayGround Empty Controller.unity` equips `Steve Player` with `Assets\ZonaShow\Prefabs\Bow PaintBall.prefab`. The variant fires `Assets\ZonaShow\Prefabs\Paint Ball Projectile.prefab`, adapted from PaintIn3D's “Paint Ball Throwing” demo with Malbers `MProjectile` and PaintIn3D `CwPaintDecal`/`CwHitCollisions`. It uses no projectile pool because the projectile is destroyed on impact. `Assets\ZonaShow\Prefabs\Paint Surface.prefab` is the demo paintable mesh, positioned at `(3, 0, 5)` with scale `(0.6, 0.6, 0.6)`.
+- Startup and hit bridge: `Assets\ZonaShow\Scripts\PaintBallBowStartup.cs` initializes/equips the configured bow without duplicating the manager's scheduled reset; immediately before firing it re-enables `MProjectile`, `CwPaintDecal`, and `PaintBallProjectilePainter`. `Assets\ZonaShow\Scripts\PaintBallProjectilePainter.cs` forwards `MProjectile.OnRayCastHit` into PaintIn3D's hit cache. The physical `CwHitCollisions` listener stays disabled to prevent duplicate painting.
+- Spaceship target: `Space Ship Surface` uses the Spaceship mesh and project copy `Assets\ZonaShow\Spaceship Paint.mat` of the Bricks material. `_UseUV2 = 0` makes `_MainTex` use UV0, matching the paintable mesh's Primary UV channel. Its paint group is 90, matching the projectile decal; it is positioned at `(0.5, 0.9, 7)` in front of the player's runtime spawn `(0, 0, 0)`. UV2 generation remains enabled on the source model but is not used for this setup. The working `01 Basic Setup` scene was the reference for painting `_MainTex` with Primary UV.
+- Controls: the player's Malbers weapon inputs are `Action2` to aim and `Action1` to attack.
+- Validation limits: a controlled `FireProjectile` test previously changed 260 of 16,384 sampled texture pixels, including 235 yellow paint pixels. A later check confirmed the pre-fire callback restores disabled projectile components and a test raycast hit queues PaintIn3D commands. A complete physical-input shot and a final texture readback after that activation fix have not been verified.
+
 - See `Resumo PaintCore.md` for the plugin overview and license notes.
 
 ## Current conversation context

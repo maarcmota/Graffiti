@@ -34,7 +34,8 @@ namespace MalbersAnimations.Controller
 
         public int ActiveComboSequenceIndex { get; internal set; }
 
-        public ComboSequence ActiveComboSequence => ActiveCombo.CurrentSequence;
+        /// <summary>Returns the active sequence, or null when no combo is selected.</summary>
+        public ComboSequence ActiveComboSequence => ActiveCombo != null ? ActiveCombo.CurrentSequence : null;
 
         /// <summary> Is the manager playing a combo? </summary>
         public bool PlayingCombo { get; internal set; }
