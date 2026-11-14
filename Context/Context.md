@@ -49,4 +49,6 @@
 
 ## Maintenance
 
+- Never delete files or folders inside `Context\`. Their contents may be updated, but the files themselves must be preserved; if a document seems obsolete, keep it rather than deleting it.
+
 Update this document when the user shares durable project decisions, when implementation work meaningfully changes the architecture, workflows, or important behavior, and whenever a third-party tool or plugin is modified. Keep confirmed facts separate from assumptions, and avoid recording transient debugging details.
