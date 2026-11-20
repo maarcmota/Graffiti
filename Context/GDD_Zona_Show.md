@@ -1,4 +1,4 @@
-## Zona Show!
+# Zona Show!
 
 > “São Paulo, 2026”
 
@@ -49,7 +49,8 @@ Um estudo do mercado de jogos stealth, definiu os elementos que devem orientar o
 
 * **Replayability:** objetivos secundários, desafios de infiltração e diferentes formas de concluir cada missão.
 
-# **2\. O que devemos evitar**
+## 2. O que devemos evitar
+
 Esses são os problemas que aparecem repetidamente nas reviews e que podem prejudicar muito a experiência.
 
 * Conteúdo limitado: poucos inimigos, fases e checkpoints, além de progressão superficial.
@@ -108,14 +109,14 @@ IBGE Instituto Brasileiro de Geografia e Estatística
   - 1.11 Análise dos jogos
 - 2 GAMEPLAY E MECÂNICAS 
   - 2.1 Progressão do jogo 
-  - 2.2 Gameplay 
-  - 2.3 Estrutura de missões/desafios 
-  - 2.4 Objetivos do jogo 
-  - 2.5 Mecânicas 
-  - 2.6 Movimentação dentro do jogo/Física 
+  - 2.2 Gameplay
+  - 2.3 Mecânicas Graffiti
+  - 2.4 Estrutura de missões/desafios
+  - 2.5 Objetivos do jogo
+  - 2.6 Movimentação dentro do jogo/Física
   - 2.7 Objetos
-  - 2.8 Ações 
-  - 2.9 Combate 
+  - 2.8 Ações
+  - 2.9 Combate e inimigos
   - 2.10 Economia 
   - 2.11 Opções de jogo 
   - 2.12 Salvar e Replay 
@@ -223,7 +224,7 @@ Todos os itens, incluindo as armas, têm um ID, um nome e um preço, que pode se
 
 ### 1.11 Análise dos jogos [:: TODO ::] [:: TODO ::] [:: TODO ::]
 
-# **No Sun to Worship**
+#### No Sun to Worship
 
 **Prós**
 
@@ -241,7 +242,7 @@ Todos os itens, incluindo as armas, têm um ID, um nome e um preço, que pode se
 * Falta de profundidade narrativa e de história, dependendo muito da narrativa ambiental, o que pode não agradar a todos.
 * Ausência de pontos de salvamento durante as fases, tornando a experiência potencialmente frustrante devido à repetição após uma derrota.
 
-# **Sniper Elite 5**
+#### Sniper Elite 5
 
 **Prós**
 
@@ -264,7 +265,7 @@ Todos os itens, incluindo as armas, têm um ID, um nome e um preço, que pode se
 * Ênfase excessiva no multiplayer, prejudicando a experiência de quem prefere jogar sozinho. A progressão single-player também é mais lenta e limitada.
 * História superficial e pouco desenvolvimento dos personagens. O jogo acaba parecendo mais um shooter tático do que uma experiência de sniper focada em stealth.
 
-# **Ghost Recon**
+#### Ghost Recon
 
 **Prós**
 
@@ -284,7 +285,7 @@ Todos os itens, incluindo as armas, têm um ID, um nome e um preço, que pode se
 * Dependência da Ubisoft de DRM e launchers de terceiros, dificultando o acesso ao jogo.
 * Problemas de conexão e instabilidade dos servidores, especialmente no multiplayer.
 
-# **Hitman**
+#### Hitman
 
 **Prós**
 
@@ -302,7 +303,7 @@ Todos os itens, incluindo as armas, têm um ID, um nome e um preço, que pode se
 * Integração ruim do suporte a VR, com diversos bugs e falta de polimento.
 * Práticas enganosas na loja, que podem levar à compra de pacotes incompletos ou com preços abusivos.
 
-# **Intravenous**
+#### Intravenous
 
 **Prós**
 
@@ -320,7 +321,7 @@ Todos os itens, incluindo as armas, têm um ID, um nome e um preço, que pode se
 * História e diálogos considerados medianos, com alguns elementos vistos como infantis ou pouco originais.
 * Interface e interações poderiam ser mais simples e intuitivas.
 
-# **Intravenous 2**
+#### Intravenous 2
 
 **Prós**
 
@@ -356,6 +357,8 @@ Os itens que compõe progressão são: Balde de tinta e pincel, Balde de tinta e
 
 Base Principal funciona como pocket factory. Geração de Recursos é feita enquanto você explora as fases.
 
+### 2.1.1 Quadro de Evolução
+
 Respeitos → efeitos permanentes ou desbloqueio de mecânicas.
 
 O nível de respeito concede pontos de respeito. É preciso completar uma linha inteira de upgrades para desbloquear a próxima. Alguns upgrades também possuem mais de um nível e afetam a porcentagem da passiva.
@@ -365,7 +368,7 @@ O nível de respeito concede pontos de respeito. É preciso completar uma linha 
 - 02 LVL - Nome
     Item ou Passiva
 
-### 2.1.1 Zona Show
+### 2.1.2 Zona Show
 
 O jogador possui sua área chamada Zona Show. Inspirada em Metal Gear Solid V: The Phantom Pain, essa base contém diversas edificações, e cada uma cumpre um papel específico na progressão.
 
@@ -373,7 +376,13 @@ O jogador possui sua área chamada Zona Show. Inspirada em Metal Gear Solid V: T
 - [ ] Fazer os upgrades desbloquearem itens que ajudam a atravessar passagens antes bloqueadas.
 - [ ] Implementar a tela com todos os níveis (mapa).
 
-### 2.2 Gameplay [:: TODO ::] [:: TODO ::] [:: TODO ::]
+### 2.1.3 Armeiro
+
+- [ ] Fazer a progressão ficar gradualmente mais RPG conforme o jogador equipa attachments na arma.
+- [ ] Mira habilita a exibição dos números de dano.
+- [ ] Implementar projetil colorido.
+
+### 2.2 Gameplay
 
 Dar enfase em praticas  reais do graffiti o maximo possivel. Criar uma aproximação de um Immersive Sim, atravéz de mecanicas objetivas. Priorizar aquelas que necessitam menos etapas - Cortar tempo de desenvolvimento. Uma mecanica buracratica é mais capaz de necessitar diversos sistemas especificos e não reaproveitaveis.
 
@@ -452,11 +461,7 @@ Todos os itens, incluindo as armas, têm um ID, um nome e um preço, que pode se
 - Bazooka de tinta
 - Granada de fumaça de tinta
 
-#### Armeiro
 
-- [ ] Fazer a progressão ficar gradualmente mais RPG conforme o jogador equipa attachments na arma.
-- [ ] Mira habilita a exibição dos números de dano.
-- [ ] Implementar projetil colorido.
 
 ### 2.8 Ações
 
@@ -471,7 +476,7 @@ As ações de graffiti, infiltração, uso de equipamentos e combate devem apoia
 - [ ] Mostrar a área de visão do mob enquanto o jogador permanece parado (acesso por meio de upgrade).
 - [ ] Incluir viciados em pílulas em Zona Show.
 
-### 1.5 Bosses
+#### Bosses
 
 - [ ] Criar quantos bosses forem necessários.
 - [ ] Definir mecânicas específicas depois de validar o protótipo.
@@ -505,6 +510,51 @@ A meta é o power creep. A moeda do jogo se chama Níquel (pentágono).
 - INFINITY RUNNER: ideia desconectada do escopo atual de plataforma e espionagem.
 - Super Battle Golf — movimentação: referência visual ou mecânica que ainda não pertence ao core loop.
 
+## Mecanicas\! 
+Seção Temporaria que lista todas as mecanicas do jogo. (Em desenvolvimento)
+
+Dar enfase em praticas  reais do graffiti o maximo possivel. Criar uma aproximação de um Immersive Sim, atravéz de mecanicas objetivas. Priorizar aquelas que necessitam menos etapas - Cortar tempo de desenvolvimento. Uma mecanica buracratica é mais capaz de necessitar diversos sistemas especificos e não reaproveitaveis. 
+
+(ALTA COMPLEXIDADE DE DESENVOLVIMENTO)
+| Movimento e exploração | 
+- [ ] Implementar movimentação.
+  - [ ] Pulo na parede (Duplo Pulo)
+  - [ ] Rolamento
+  - [ ] Agarrar na beirada
+  - [x] Agachar
+- [ ] Criar o level design básico do casarão.
+- [ ] Permitir backtracking após upgrades desbloquearem passagens.
+
+(MEDIA COMPLEXIDADE DE DESENVOLVIMENTO)
+| Sistema Dificuldade | 3 Dificuldades - Facil, Medio e Dificil. A dificuldade afeta vida dos inimigos e o dano recebido.
+
+
+(MEDIA COMPLEXIDADE DE DESENVOLVIMENTO)
+| Câmeras de Execução | Câmeras de execução satisfatórias e efeitos de câmera lenta.  
+
+(ALTA COMPLEXIDADE DE DESENVOLVIMENTO) 
+| Personalização de armas | Personalização de armas aprimorada permitindo criar equipamentos de acordo com o estilo do jogador.  
+
+(Multiplayer) (ALTA COMPLEXIDADE DE DESENVOLVIMENTO) 
+ Modo multiplayer | Modo multiplayer de invasão adiciona imprevisibilidade e emoção. 
+
+(MEDIA COMPLEXIDADE DE DESENVOLVIMENTO) (12 Minutos)
+- [ ] Gameplay curto e bem direcionado, ideal para sessões rápidas ou fãs de stealth que buscam nostalgia. (~ Game Loop de 12 Minutos)
+
+(BAIXA COMPLEXIDADE DE DESENVOLVIMENTO) ?Justificativa?
+| Tinta como distração | Ao pintar um pico, chamará a atenção de inimigos para a sua localização.
+
+(BAIXA COMPLEXIDADE DE DESENVOLVIMENTO)
+| Tinta sobre inimigos | Acertar com tinta inimigos os mantem marcados, (e) visiveis atravez da parede.
+
+(MEDIA COMPLEXIDADE DE DESENVOLVIMENTO)
+| EQUIPAMENTOS | 
+
+| Bomba de Pó Colorido | aka Bomba de Fumaça. Distrai inimigos, que ficam encapacitados, durante o efeito da bomba. Isso também é verdade para o periodo em que o jogador permanece oculto se, dentro da nuvem. 
+
+(Skins de Camuflagem) (ALTA COMPLEXIDADE DE DESENVOLVIMENTO)
+| Camuflagem de Tinta | Bem parecido com a pele do Foxhunt, [https\://youtu.be/c46xM5-wScg?t=55](https://youtu.be/c46xM5-wScg?t=55) o jogo joga um balde de tinta especial e ativa um modo aonde ele se camufla repetindo a textura do cenario em volta\! |
+
 ## 3 ARTE DO JOGO
 
 ### 3.1 Elementos visuais
@@ -526,7 +576,7 @@ Direção de áudio ainda não definida.
 
 Com a finalidade de desenvolver um contexto ao jogo, O jogo possui três passagens em diferentes anos. Um prólogo que se passa no ano 2000, aqui o jogador está em seu estado pleno de habilidades.
 
-**2000: A Fabrica (40 Minutos)**
+#### 2000: A Fabrica (40 Minutos)
 
 Após acordar do que parece ser uma grande ressaca, você está na traseira de uma van, com seu parceiro de revolução, para o que parece ser uma invasão a uma fábrica. Você tenta se recordar do que aconteceu, quem são essas pessoas, e onde você está fazendo, mas não consegue. Apenas o que escuta ao fundo é a teletela anunciando o resultado das eleições parciais. O Grande Irmão está à frente por 65%, grandes chances de o Coronel Magalhães vencer no primeiro turno.
 
@@ -534,13 +584,13 @@ Você e seu parceiro entram na fábrica - Ela parece abandonada. Você tem o com
 
 Vocês escutam um barulho, isso não parece normal. Vocês veem luzes entrando pelas janelas, não há saída, vocês estão cercados. Vocês são colocados na mala de um carro, e devem fugir. Os policiais não estão aqui para prendê-los, estão aqui para matá-los. Após um breve caminho você é tirado do porta-malas e percebe que está a beira de um Rio, os policiais são misericordiosos, não demoram a colocar um tiro em sua cabeça.
 
-**1970: Cão Fila KM 26 (1 Horas e 30 Minutos)**
+#### 1970: Cão Fila KM 26 (1 Horas e 30 Minutos)
 
 Você agora controla Antenor (Lara Campos), um homem idoso de 60 anos. Você está atrás de uma vida digna, acha uma pequena cidade, onde apenas um líder de umbanda reside. Ele te diz que o casarão cheio de cachorros abandonados, está vago, você pode ocupar se cuidar dos caninos.
 
 Para isso você deve cumprir o objetivo: Anuncie na rodovia através de avisos, para que você consiga trocar os animais por Crédito Social e ajudar o líder da comunidade. E assim o faz, nascer 'Cão Fila KM 26', o nome que se refere a você por conta dos anúncios. com o crédito social que você consegue vendendo os animais, novas casas são erguidas, e a comunidade se torna um lugar mais seguro.
 
-**1999: A morte (20 Minutos)**
+#### 1999: A morte (20 Minutos)
 
 Muito tempo se passou, você viveu uma vida tranquila na sua comunidade - Ela está fortalecida, Você é conhecido e se sente completo. Certo dia, a água vinda da estação de tratamento de água é cortada. E você decide verificar o que ocorreu, lá parece abandonado, o fornecimento parece ter sido cortado a dias. Nenhum funcionário.
 
@@ -548,7 +598,7 @@ Você decide voltar, ao chegar na comunidade, encontra uma visão aterradora. Me
 
 Já não é mais possível ter uma vida livre. É preciso incorporar uma persona. Você então a manifesta. Uma máscara de um cachorro rotundo de aparência sorridente, cobre as cicatrizes de queimadura que cobrem o seu corpo todo o seu corpo. Agora você possui uma nova identidade: Lego.
 
-**2000: O Julgamento (28 Horas)**
+#### 2000: O Julgamento (28 Horas)
 
 O jogador agora está acordado coberto de sangue à beira de uma represa. Você não está morto. Você está atrás de vingança.
 
@@ -664,20 +714,6 @@ Tanto por motivos de experiência de desenvolvimento, quanto de facilidade de de
 
 
 INACABADO A PARTIR DAQUI!!
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ### 7.2 Hardware e software de desenvolvimento **{TODO OG}**
 A escolha do software de desenvolvimento foi feito em duas etapas:
 A primeira foi escolher qual engine seria desenvolvida o jogo. Aqui tínhamos várias possibilidades, entre elas: Unity, Construct, Game Maker e Unreal. Quando decidimos que o jogo seria 3D, logo o Construct e o Game Maker foram descartados, por serem engines voltadas para o 2D. Já entre a Unity e a Unreal, acabamos optando pela Unity, por ser mais simples de atingir o visual desejado, e também pela experiência de desenvolvimento de todos integrantes do grupo.

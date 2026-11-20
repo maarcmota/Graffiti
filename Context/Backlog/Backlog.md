@@ -1,3 +1,13 @@
+# ZONASHOW - Quadro de tarefas
+
+## TAREFA PRINCIPAL
+
+## [] PROTÓTIPO DE PLATAFORMA
+
+
+
+
+
 ## Direção geral
 
 GG: Uma boa ideia, com alta complexidade, mecânicas simples e escaláveis, para um público específico, em um formato palpável e por um preço acessível.
@@ -6,70 +16,6 @@ GG: Uma boa ideia, com alta complexidade, mecânicas simples e escaláveis, para
 - Mostrar o core loop no trailer.
 - Efeito viral: medidor de blue pill e red pill.
 - Collabs: avaliar o alcance da ideia e sua relação com jogos brasileiros.
-
-## ITENS
-
-Todos os itens, incluindo as armas, têm um ID, um nome e um preço, que pode ser 0.
-
-### Ferramentas
-
-- Escada
-- Caixa
-
-### Tinta
-
-- Balde de tinta e pincel
-- Balde de tinta e rolo
-- Lata spray de tinta
-
-### Armas
-
-- Pistola tranquilizante
-- Rifle Paint Ball
-- Bazooka de tinta
-- Granada de fumaça de tinta
-
-# ZONASHOW - Quadro de tarefas
-
-## TAREFA PRINCIPAL
-
-- [ ] Ter o main core loop de espionagem muito bem descrito.
-- [x] Mapear todas as conversas sobre o jogo: WhatsApp, notas e documentos.
-- [ ] Reunir e organizar o game design já produzido.
-
-## 1. PROTÓTIPO DE PLATAFORMA
-
-
-
-
-
-### 2.2 Quadro de Evolução
-
-Respeitos → efeitos permanentes ou desbloqueio de mecânicas.
-
-O nível de respeito concede pontos de respeito. É preciso completar uma linha inteira de upgrades para desbloquear a próxima. Alguns upgrades também possuem mais de um nível e afetam a porcentagem da passiva.
-
-- 01 LVL - Nome
-    Item ou Passiva
-- 02 LVL - Nome
-    Item ou Passiva
-
-
-### 2.3 Armeiro
-
-- [ ] Fazer a progressão ficar gradualmente mais RPG conforme o jogador equipa attachments na arma.
-- [ ] Mira habilita a exibição dos números de dano.
-- [ ] Implementar projetil colorido.
-
-### 2.4 Mecânicas de rastreamento e interface
-
-- [ ] Celular auxilia o jogador a rastrear todos os aspectos do jogo que não possuem interface própria.
-- [ ] Quando ficar parado, mostrar a área de visão do mob.
-- [x] Implementar debug log. (Chat)
-- [ ] Fazer os botões da interface piscarem para melhorar a UX e ajudar o jogador a não ficar preso nos menus.
-- [ ] Definir o número máximo de palavras por diálogo: 80 palavras, com no máximo 10 telas e 8 palavras por tela.
-
-
 
 ## 5. APRESENTAÇÃO VISUAL
 
@@ -97,3 +43,4 @@ O nível de respeito concede pontos de respeito. É preciso completar uma linha 
 - O efeito ModPsyco. Iridescente.
 - INFINITY RUNNER: ideia desconectada do escopo atual de plataforma e espionagem.
 - Super Battle Golf — movimentação: referência visual ou mecânica que ainda não pertence ao core loop.
+
