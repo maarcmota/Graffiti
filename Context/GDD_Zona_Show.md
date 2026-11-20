@@ -379,50 +379,7 @@ Dar enfase em praticas  reais do graffiti o maximo possivel. Criar uma aproxima�
 
 Gameplay curto e bem direcionado, ideal para sessões rápidas ou fãs de stealth que buscam nostalgia. (~ Game Loop de 12 Minutos)
 
-(ALTA COMPLEXIDADE DE DESENVOLVIMENTO)
-
-| Movimento e exploração |
-- [ ] Implementar movimentação.
-  - [ ] Pulo na parede (Duplo Pulo)
-  - [ ] Rolamento
-  - [ ] Agarrar na beirada
-  - [x] Agachar
-- [ ] Criar o level design básico do casarão.
-- [ ] Permitir backtracking após upgrades desbloquearem passagens.
-
-(MEDIA COMPLEXIDADE DE DESENVOLVIMENTO)
-
-| Sistema Dificuldade | 3 Dificuldades - Facil, Medio e Dificil. A dificuldade afeta vida dos inimigos e o dano recebido.
-
-| Câmeras de Execução | Câmeras de execução satisfatórias e efeitos de câmera lenta.
-
-(ALTA COMPLEXIDADE DE DESENVOLVIMENTO)
-
-| Personalização de armas | Personalização de armas aprimorada permitindo criar equipamentos de acordo com o estilo do jogador.
-
-(Multiplayer) (ALTA COMPLEXIDADE DE DESENVOLVIMENTO)
-
-Modo multiplayer | Modo multiplayer de invasão adiciona imprevisibilidade e emoção.
-
-(BAIXA COMPLEXIDADE DE DESENVOLVIMENTO) ?Justificativa?
-
-| Tinta como distração | Ao pintar um pico, chamará a atenção de inimigos para a sua localização.
-
-| Tinta sobre inimigos | Acertar com tinta inimigos os mantem marcados, (e) visiveis atravez da parede.
-
-(MEDIA COMPLEXIDADE DE DESENVOLVIMENTO)
-
-| EQUIPAMENTOS |
-
-| Bomba de Pó Colorido | aka Bomba de Fumaça. Distrai inimigos, que ficam encapacitados, durante o efeito da bomba. Isso também é verdade para o periodo em que o jogador permanece oculto se, dentro da nuvem.
-
-(Skins de Camuflagem) (ALTA COMPLEXIDADE DE DESENVOLVIMENTO)
-
-| Camuflagem de Tinta | Bem parecido com a pele do Foxhunt, [https://youtu.be/c46xM5-wScg?t=55](https://youtu.be/c46xM5-wScg?t=55) o jogo joga um balde de tinta especial e ativa um modo aonde ele se camufla repetindo a textura do cenario em volta! |
-
-| Tinta no chão | Permitir movimentação rápida e silenciosa aonde voce pinta. (uma tinta especifica limitada, recurso raro) |
-
-### 2.2.1 Mecânicas Graffiti
+### 2.3 Mecânicas Graffiti
 
 - [ ] Implementar o sistema de graffiti.
 - [ ] Pokédex (Black Book) — Colecionar todos os graffitis já feitos e suas informações.
@@ -440,7 +397,7 @@ Modo multiplayer | Modo multiplayer de invasão adiciona imprevisibilidade e emo
 
 
 
-### 2.3 Estrutura de missões/desafios
+### 2.4 Estrutura de missões/desafios
 O jogo é dividido entre areas. Elas estão espacialmente num mundo aberto, porém o jogador é apenas capaz de acessar areas vizinhas através da viagem rapida. O jogador deve ultilizar o mapa para acessar as areas, após isso o jogador vê uma animação do personagem chegando de carro na area.
 
 As missões sempre voltam ao seu estado pleno ao serem reiniciadas.
@@ -457,7 +414,7 @@ Quests Secundarias: **Porque Secundarias??**
 
 Dinheiro compreende ao Níquel. Usado para comprar itens.
 
-### 2.4 Objetivos do jogo
+### 2.5 Objetivos do jogo
 
 Cada mapa deve oferecer diferentes abordagens para cada objetivo.
 
@@ -505,13 +462,17 @@ Todos os itens, incluindo as armas, têm um ID, um nome e um preço, que pode se
 
 As ações de graffiti, infiltração, uso de equipamentos e combate devem apoiar abordagens objetivas e reaproveitar mecânicas sempre que possível.
 
-### 2.9 Combate
+### 2.9 Combate e inimigos
 
 - [ ] Implementar vida, dano, cura, morte e ataques.
 - [ ] Implementar sistema de inimigos.
 - [ ] Implementar perseguidores.
 - [ ] Ter inimigos exclusivos de determinadas áreas.
+- [ ] Mostrar a área de visão do mob enquanto o jogador permanece parado (acesso por meio de upgrade).
 - [ ] Incluir viciados em pílulas em Zona Show.
+
+### 1.5 Bosses
+
 - [ ] Criar quantos bosses forem necessários.
 - [ ] Definir mecânicas específicas depois de validar o protótipo.
 - [ ] Usar provisoriamente a seguinte mecânica básica:
@@ -519,6 +480,7 @@ As ações de graffiti, infiltração, uso de equipamentos e combate devem apoia
   - O jogador o cega com tinta.
   - O boss colide contra as paredes da arena.
   - Após 3 a 5 colisões, o boss é derrotado.
+
 
 ### 2.10 Economia
 
@@ -611,35 +573,12 @@ Desfecho: A sua busca por vingança lhe levará até a —----------, responsáv
 - [ ] Fazer o jogador reunir cinco partes ao longo da jornada.
 - [ ] O conjunto construirá o artefato que evocará Cthulhu.
 - [ ] Fazer o Shotgun, o coadjuvante, acompanhar o jogador na coleta dos artefatos.
-  - 1. Espelho (celular)
-  - 2. Pedra da Fortificação
-  - 3.
-  - 4.
-  - 5.
+    - 1. Espelho (celular)
+    - 2. Pedra da Fortificação
+    - 3.
+    - 4.
+    - 5.
 - [ ] Revelar ao final que o Shotgun é uma imagem projetada do subconsciente do próprio protagonista.
-
-### 4.4 Formato da história
-
-Uma parte da história será contada por imagens em movimento que marcam o início e o fim dos capítulos. Essa decisão reúne as opções disponíveis: história em cutscene, história em quadrinhos ilustrada ou história em vídeo.
-
-### 4.5 Finais
-
-#### Opção 1
-
-- [ ] Permitir escolher entre final bom e final ruim.
-- [ ] Implementar o final bom: aprisionar Cthulhu para sempre usando o poder dos artefatos.
-- [ ] Implementar o final ruim: invocar Cthulhu e deixá-lo governar o mundo.
-- [ ] Independentemente da escolha, retornar ao estágio anterior à última missão.
-- [ ] Permitir jogar livremente depois do fim e refazer a escolha.
-
-#### Opção 2
-
-- [ ] O jogador confronta o ditador ou a ditadora e passa por uma morte do ego quando a verdade lhe é revelada: seu parceiro era apenas um amigo imaginário. Em sua busca por poder, o protagonista se tornou pior e mais ganancioso do que seu inimigo.
-
-#### Opções adicionais
-
-- [ ] Considerar um final aberto para Zona Show 2.
-- [ ] Considerar o final romântico: o par do jogador é raptado em algum ponto do jogo e resgatado ao final.
 
 ### 4.6 Pesquisa narrativa
 
