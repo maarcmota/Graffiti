@@ -37,7 +37,64 @@ A direção visual combina 3D estilizado, elementos flat e referências de pintu
 - Smiling Friends (Humor critico).
 - Games: No Sun to Worship, Metal Gear Solid 5: The Phantom Pain, Call of Duty: Black Ops 3 - Zombies Mode (Fator Aleatoriedade), Hades ou Risk of Rain 2 (pelo fator "run" de tentar chegar mais longe), HotLine Miami...
 
-Palavras-chave: #Palavra 1, #Palavra 2, #Palavra 3, #Palavra 4.
+Um estudo de mercado foi feito a fim de definir oque SIM define o jogo, e oque NÃO refletir no desenvolvimento.
+
+**Sistemas de stealth:** 
+
+**IA dinâmica e reativa**
+
+* Inimigos precisam reagir às ações do jogador.  
+* Investigar barulhos e movimentações suspeitas.  
+* Procurar o jogador em grupo quando ele desaparece. (Patrulha, depois do Warning passar)  
+* Flanquear e tentar cercar o jogador.  
+* Mudar padrões de patrulha depois de um alerta. (Reforço)
+
+**Múltiplas abordagens para cada objetivo**
+
+* Entrar pela frente, pelos fundos ou por áreas alternativas. (Todo mapa ter 3 opções)  
+* Usar o ambiente para distrair inimigos.  
+* Poder completar objetivos sem matar ninguém. (MUITO IMPORTANTE)
+
+**Stealth no ambiente**
+
+* Iluminação e sombras.  
+* Barulho dos passos e ações.  
+* Criar oportunidades para passar despercebido. (Quebrar janelas, Ligar luzes)  
+* Esconderijos e rotas alternativas.  
+* Diferentes níveis de visibilidade.
+
+**Gadgets e personalização**
+
+* Diferentes ferramentas para infiltração.  
+* Equipamentos para distração.  
+* Armas não letais.  
+* Loadouts que mudam a abordagem da missão. (Sala para se preparar)
+
+**Replayability**
+
+* Objetivos secundários. (Itens)  
+* Desafios de infiltração.  
+* Diferentes maneiras de concluir uma missão.
+
+# **2\. O que devemos evitar**
+Esses são os problemas que aparecem repetidamente nas reviews e que podem prejudicar muito a experiência.
+
+* Numero Limitado de inimigos
+* Numero limitado de Fases (Replayability)
+* Falta de profundidade narrativa e da historia. Depender muito da Atmosfera.
+* Ausência de pontos de salvamento durante as fases, 
+
+* IA inconsistente.
+* Detecção injusta.
+* Missões repetitivas.
+* Pouca diversidade de inimigos.
+* Caminhos muito fechados.
+* Bugs de pathfinding.
+* Poucos checkpoints.
+* Progressão superficial.
+* Dependência de multiplayer.
+
+Palavras-chave: #Zonashow, #Game Design Document, #GDD.
 
 ## ABSTRACT 
 
