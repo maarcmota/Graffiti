@@ -45,7 +45,7 @@ Um estudo do mercado de jogos stealth, definiu os elementos que devem orientar o
 
 * **Gadgets e personalização:** ferramentas de infiltração, distrações, armas não letais e loadouts que alterem a abordagem da missão. 
 
-> “ Splatoon possui grande variação de armas, e muitas delas compartilham modulos e mecanicas entre si reaproveitando sistemas e aumentando a variação. Ex: https://www.youtube.com/watch?v=nt9CwkYe6oQ, Ex²: https://splatoonwiki.org/wiki/List_of_main_weapons_in_Splatoon.
+> “ Splatoon possui grande variação de armas, e muitas delas compartilham modulos e mecanicas entre si reaproveitando sistemas e aumentando a variação. Ex: https://www.youtube.com/watch?v=nt9CwkYe6oQ, Ex²: https://splatoonwiki.org/wiki/List_of_main_weapons_in_Splatoon. ”
 
 * **Replayability:** objetivos secundários, desafios de infiltração e diferentes formas de concluir cada missão.
 
