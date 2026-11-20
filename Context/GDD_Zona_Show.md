@@ -31,67 +31,29 @@ A direção visual combina 3D estilizado, elementos flat e referências de pintu
 
 > “O resumo é obrigatório e deve ressaltar o objetivo, o método, os resultados e as conclusões do documento. A ordem e a extensão destes itens dependem do tipo de resumo (informativo ou indicativo) e do tratamento que cada item recebe no documento original. O resumo deve ser precedido da referência do documento, com exceção do resumo inserido no próprio documento. O resumo deve ser composto de uma sequência de frases concisas, afirmativas e não de enumeração de tópicos. Recomenda-se o uso de parágrafo único. A primeira frase deve ser significativa, explicando o tema principal do documento. A seguir, deve-se indicar a informação sobre a categoria do tratamento (memória, estudo de caso, análise da situação etc.). Deve-se usar o verbo na voz ativa e na terceira pessoa do singular. As palavras-chave devem figurar logo abaixo do resumo, antecedidas da expressão Palavras-chave:, separadas entre si por ponto e finalizadas também por ponto. Devem-se evitar: a) símbolos e contrações que não sejam de uso corrente; b) fórmulas, equações, diagramas etc., que não sejam absolutamente necessários; quando seu emprego for imprescindível, defini-los na primeira vez que aparecerem. Quanto a sua extensão o resumo deve ter de 150 a 500 palavras.”
 
-## REFERENCIAS **{TODO - WIP }**
+## REFERENCIAS
 
-- Jogos de Infiltração.
-- Smiling Friends (Humor critico).
-- Games: No Sun to Worship, Metal Gear Solid 5: The Phantom Pain, Call of Duty: Black Ops 3 - Zombies Mode (Fator Aleatoriedade), Hades ou Risk of Rain 2 (pelo fator "run" de tentar chegar mais longe), HotLine Miami...
+- Referências: jogos de infiltração, No Sun to Worship, *Metal Gear Solid 5: The Phantom Pain, *Call of Duty: Black Ops 3 – Zombies Mode (aleatoriedade), Hades e Risk of Rain 2 (estrutura de runs), Hotline Miami e Smiling Friends (humor crítico).
 
-Um estudo de mercado foi feito a fim de definir oque SIM define o jogo, e oque NÃO refletir no desenvolvimento.
+Um estudo do mercado de jogos stealth, definiu os elementos que devem orientar o jogo e os que devem ser evitados.
 
-**Sistemas de stealth:** 
+* **IA dinâmica e reativa:** inimigos investigam ruídos e movimentações suspeitas, procuram o jogador em grupo, flanqueiam, cercam e alteram suas patrulhas após alertas.
 
-**IA dinâmica e reativa**
+* **Múltiplas abordagens:** cada objetivo deve oferecer entradas frontais, traseiras ou alternativas, além de distrações ambientais e a possibilidade de concluir a missão sem matar.
 
-* Inimigos precisam reagir às ações do jogador.  
-* Investigar barulhos e movimentações suspeitas.  
-* Procurar o jogador em grupo quando ele desaparece. (Patrulha, depois do Warning passar)  
-* Flanquear e tentar cercar o jogador.  
-* Mudar padrões de patrulha depois de um alerta. (Reforço)
+* **Stealth ambiental:** iluminação, sombras, ruídos, visibilidade variável, esconderijos e rotas alternativas devem criar oportunidades para passar despercebido.
 
-**Múltiplas abordagens para cada objetivo**
+* **Gadgets e personalização:** ferramentas de infiltração, distrações, armas não letais e loadouts que alterem a abordagem da missão.
 
-* Entrar pela frente, pelos fundos ou por áreas alternativas. (Todo mapa ter 3 opções)  
-* Usar o ambiente para distrair inimigos.  
-* Poder completar objetivos sem matar ninguém. (MUITO IMPORTANTE)
-
-**Stealth no ambiente**
-
-* Iluminação e sombras.  
-* Barulho dos passos e ações.  
-* Criar oportunidades para passar despercebido. (Quebrar janelas, Ligar luzes)  
-* Esconderijos e rotas alternativas.  
-* Diferentes níveis de visibilidade.
-
-**Gadgets e personalização**
-
-* Diferentes ferramentas para infiltração.  
-* Equipamentos para distração.  
-* Armas não letais.  
-* Loadouts que mudam a abordagem da missão. (Sala para se preparar)
-
-**Replayability**
-
-* Objetivos secundários. (Itens)  
-* Desafios de infiltração.  
-* Diferentes maneiras de concluir uma missão.
+* **Replayability:** objetivos secundários, desafios de infiltração e diferentes formas de concluir cada missão.
 
 # **2\. O que devemos evitar**
 Esses são os problemas que aparecem repetidamente nas reviews e que podem prejudicar muito a experiência.
 
-* Numero Limitado de inimigos
-* Numero limitado de Fases (Replayability)
-* Falta de profundidade narrativa e da historia. Depender muito da Atmosfera.
-* Ausência de pontos de salvamento durante as fases, 
-
-* IA inconsistente.
-* Detecção injusta.
-* Missões repetitivas.
-* Pouca diversidade de inimigos.
-* Caminhos muito fechados.
-* Bugs de pathfinding.
-* Poucos checkpoints.
-* Progressão superficial.
+* Conteúdo limitado: poucos inimigos, fases e checkpoints, além de progressão superficial.
+* Narrativa pouco desenvolvida, dependente apenas da atmosfera.
+* IA inconsistente, detecção injusta e bugs de *pathfinding*.
+* Missões repetitivas, pouca diversidade de inimigos e caminhos excessivamente fechados.
 * Dependência de multiplayer.
 
 Palavras-chave: #Zonashow, #Game Design Document, #GDD.

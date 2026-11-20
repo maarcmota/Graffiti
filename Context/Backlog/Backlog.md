@@ -181,3 +181,63 @@ Objetivo do loop central é tentar fazer pelo menos uma missão ou pegar um item
 
 - INFINITY RUNNER: ideia desconectada do escopo atual de plataforma e espionagem.
 - Super Battle Golf — movimentação: referência visual ou mecânica que ainda não pertence ao core loop.
+
+## TRANSCRIÇÃO DA IMAGEM — 10/10/2026
+
+### 5 artefatos
+
+Anotações superiores:
+
+- Espelho (cel)
+- Pedra
+- Tonificação
+
+### 1. Contorno pontilhado
+
+- Ser contornado, pontilhado.
+- Ser continuado / preenchido e definido pela precisão.
+- É mostrado ao fim da missão.
+- Pode virar [texto parcialmente ilegível].
+- Prazo?
+- Grafite mais complexo é feito com base no material de desenho.
+- [Texto parcialmente ilegível].
+- Mas ... para fazer o graffiti, assim definido a cor na shader.
+
+### 2. Cores
+
+- São utilizadas as cores presentes no inventário.
+- Grafites complexos são feitos com base na disponibilidade de material.
+- Criar condições ao fazer o grafite.
+- Mascara RGB para o grafite.
+- Assim definido a cor na shader.
+
+### 3. Bordex
+
+- Bordex (Black Box)
+- Crie box de efeitos do preto.
+
+Anotações visuais:
+
+- Gesso ou grau?
+- Azul: >60%
+- Verde: >20%
+- Rosa: <20%
+- Grafite ideias
+- RGB
+
+### Mapa de progressão
+
+Quadro de evolução:
+
+| Stealth | Graffiti | Progressão |
+| --- | --- | --- |
+| Polícia | Gunfight/Graffiti | Respeitos → efeitos permanentes ou desbloqueio de mecânicas |
+
+- Nível de respeito.
+- Concede ponto de respeito.
+- 01 lvl
+- 02 lvl
+- Nome
+- Possible estrutura de passiva: “VA”.
+
+Nota: a imagem contém escrita manuscrita parcialmente ilegível; os trechos marcados entre colchetes ou indicados como incertos precisam ser conferidos diretamente na fonte.
