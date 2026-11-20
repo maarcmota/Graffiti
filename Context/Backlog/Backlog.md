@@ -8,6 +8,7 @@ GG: Uma boa ideia, com alta complexidade, mecânicas simples e escaláveis, para
 - Collabs: avaliar o alcance da ideia e sua relação com jogos brasileiros.
 
 ## ITENS
+Todos os itens (incluindo as armas) têm um ID, um nome e um preço (que pode ser 0).
 
 ### Ferramentas
 
@@ -60,7 +61,7 @@ Objetivo do loop central é tentar fazer pelo menos uma missão ou pegar um item
 - [ ] Fazer o mesmo graffiti 15 vezes aumentar a durabilidade visual na parede.
   - O objetivo é mostrar a parede completamente preenchida após a ação se repetir.
 - [ ] Pesquisar elementos de satisfação de Death Stranding para aplicar ao graffiti e à entrega.
-- [ ] Pesquisar armas de Splatoon e resumir as referências.
+- [ ] 
 
 ### 1.4 Vida, combate e inimigos
 
@@ -134,7 +135,9 @@ Objetivo do loop central é tentar fazer pelo menos uma missão ou pegar um item
 - [ ] Desenvolver a história dos artefatos.
 - [ ] Fazer o jogador reunir cinco partes ao longo da jornada.
 - [ ] Construir o artefato que evocará Cthulhu.
-- [ ] Fazer o estudioso acompanhar o jogador na coleta dos artefatos.
+- [ ] Fazer o estudioso acompanhar o jogador na coleta dos artefatos. 
+    - Espelho (cel)
+    - Pedra da Fortificação
 - [ ] Revelar ao final que o estudioso é uma imagem projetada do subconsciente do próprio protagonista.
 
 ### 3.4 Formato da história
@@ -184,22 +187,13 @@ Objetivo do loop central é tentar fazer pelo menos uma missão ou pegar um item
 
 ## TRANSCRIÇÃO DA IMAGEM — 10/10/2026
 
-### 5 artefatos
-
-Anotações superiores:
-
-- Espelho (cel)
-- Pedra
-- Tonificação
 
 ### 1. Contorno pontilhado
 
 - Ser contornado, pontilhado.
-- Ser continuado / preenchido e definido pela precisão.
-- É mostrado ao fim da missão.
-- Pode virar [texto parcialmente ilegível].
-- Prazo?
-- Grafite mais complexo é feito com base no material de desenho.
+- Medidor de precisão. É mostrado ao fim da missão. O resultado final pode ser dois: Rock or Toy, dependendo da porcentagem de aprovação (50%).
+- Grafite mais complexo é feito com base no material de desenho. (Quanto melhores os materiais que você carrega, de maior qualidade o graffiti.
+- Graffitis especificos lhe concedem buffs.
 - [Texto parcialmente ilegível].
 - Mas ... para fazer o graffiti, assim definido a cor na shader.
 

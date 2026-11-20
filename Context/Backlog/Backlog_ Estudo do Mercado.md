@@ -39,25 +39,16 @@ Resumo das Análise:
 
 # **2\. O que devemos evitar**
 
-Esses são os problemas que aparecem repetidamente nas reviews e que podem prejudicar muito a experiência.
-
-IA inconsistente
-
-Detecção injusta
-
-Missões repetitivas
-
-Pouca diversidade de inimigos
-
-Caminhos muito fechados
-
-Bugs de pathfinding
-
-Poucos checkpoints
-
-Progressão superficial
-
-Dependência de multiplayer
+- Esses são os problemas que aparecem repetidamente nas reviews e que podem prejudicar muito a experiência.
+- IA inconsistente
+- Detecção injusta
+- Missões repetitivas
+- Pouca diversidade de inimigos
+- Caminhos muito fechados
+- Bugs de pathfinding
+- Poucos checkpoints
+- Progressão superficial
+- Dependência de multiplayer
 
 **Análise dos jogos*:***
 
