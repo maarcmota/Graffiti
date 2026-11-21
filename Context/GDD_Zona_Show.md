@@ -509,7 +509,7 @@ A meta é o power creep. A moeda do jogo se chama Níquel (pentágono).
 - INFINITY RUNNER: ideia desconectada do escopo atual de plataforma e espionagem.
 - Super Battle Golf — movimentação: referência visual ou mecânica que ainda não pertence ao core loop.
 
-# Mecanicas\! 
+# Mecanicas
 Seção Temporaria que lista todas as mecanicas do jogo. (Em desenvolvimento)
 
 Dar enfase em praticas  reais do graffiti o maximo possivel. Criar uma aproximação de um Immersive Sim, atravéz de mecanicas objetivas. Priorizar aquelas que necessitam menos etapas - Cortar tempo de desenvolvimento. Uma mecanica buracratica é mais capaz de necessitar diversos sistemas especificos e não reaproveitaveis. 
