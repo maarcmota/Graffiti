@@ -1,4 +1,4 @@
-# Zona Show!
+## Zona Show!
 
 > “São Paulo, 2026”
 
@@ -49,8 +49,7 @@ Um estudo do mercado de jogos stealth, definiu os elementos que devem orientar o
 
 * **Replayability:** objetivos secundários, desafios de infiltração e diferentes formas de concluir cada missão.
 
-## 2. O que devemos evitar
-
+# **2\. O que devemos evitar**
 Esses são os problemas que aparecem repetidamente nas reviews e que podem prejudicar muito a experiência.
 
 * Conteúdo limitado: poucos inimigos, fases e checkpoints, além de progressão superficial.
@@ -109,14 +108,14 @@ IBGE Instituto Brasileiro de Geografia e Estatística
   - 1.11 Análise dos jogos
 - 2 GAMEPLAY E MECÂNICAS 
   - 2.1 Progressão do jogo 
-  - 2.2 Gameplay
-  - 2.3 Mecânicas Graffiti
-  - 2.4 Estrutura de missões/desafios
-  - 2.5 Objetivos do jogo
-  - 2.6 Movimentação dentro do jogo/Física
+  - 2.2 Gameplay 
+  - 2.3 Estrutura de missões/desafios 
+  - 2.4 Objetivos do jogo 
+  - 2.5 Mecânicas 
+  - 2.6 Movimentação dentro do jogo/Física 
   - 2.7 Objetos
-  - 2.8 Ações
-  - 2.9 Combate e inimigos
+  - 2.8 Ações 
+  - 2.9 Combate 
   - 2.10 Economia 
   - 2.11 Opções de jogo 
   - 2.12 Salvar e Replay 
@@ -224,7 +223,7 @@ Todos os itens, incluindo as armas, têm um ID, um nome e um preço, que pode se
 
 ### 1.11 Análise dos jogos [:: TODO ::] [:: TODO ::] [:: TODO ::]
 
-#### No Sun to Worship
+# **No Sun to Worship**
 
 **Prós**
 
@@ -242,7 +241,7 @@ Todos os itens, incluindo as armas, têm um ID, um nome e um preço, que pode se
 * Falta de profundidade narrativa e de história, dependendo muito da narrativa ambiental, o que pode não agradar a todos.
 * Ausência de pontos de salvamento durante as fases, tornando a experiência potencialmente frustrante devido à repetição após uma derrota.
 
-#### Sniper Elite 5
+# **Sniper Elite 5**
 
 **Prós**
 
@@ -265,7 +264,7 @@ Todos os itens, incluindo as armas, têm um ID, um nome e um preço, que pode se
 * Ênfase excessiva no multiplayer, prejudicando a experiência de quem prefere jogar sozinho. A progressão single-player também é mais lenta e limitada.
 * História superficial e pouco desenvolvimento dos personagens. O jogo acaba parecendo mais um shooter tático do que uma experiência de sniper focada em stealth.
 
-#### Ghost Recon
+# **Ghost Recon**
 
 **Prós**
 
@@ -285,7 +284,7 @@ Todos os itens, incluindo as armas, têm um ID, um nome e um preço, que pode se
 * Dependência da Ubisoft de DRM e launchers de terceiros, dificultando o acesso ao jogo.
 * Problemas de conexão e instabilidade dos servidores, especialmente no multiplayer.
 
-#### Hitman
+# **Hitman**
 
 **Prós**
 
@@ -303,7 +302,7 @@ Todos os itens, incluindo as armas, têm um ID, um nome e um preço, que pode se
 * Integração ruim do suporte a VR, com diversos bugs e falta de polimento.
 * Práticas enganosas na loja, que podem levar à compra de pacotes incompletos ou com preços abusivos.
 
-#### Intravenous
+# **Intravenous**
 
 **Prós**
 
@@ -321,7 +320,7 @@ Todos os itens, incluindo as armas, têm um ID, um nome e um preço, que pode se
 * História e diálogos considerados medianos, com alguns elementos vistos como infantis ou pouco originais.
 * Interface e interações poderiam ser mais simples e intuitivas.
 
-#### Intravenous 2
+# **Intravenous 2**
 
 **Prós**
 
@@ -510,7 +509,7 @@ A meta é o power creep. A moeda do jogo se chama Níquel (pentágono).
 - INFINITY RUNNER: ideia desconectada do escopo atual de plataforma e espionagem.
 - Super Battle Golf — movimentação: referência visual ou mecânica que ainda não pertence ao core loop.
 
-## Mecanicas\! 
+#### Mecanicas\! 
 Seção Temporaria que lista todas as mecanicas do jogo. (Em desenvolvimento)
 
 Dar enfase em praticas  reais do graffiti o maximo possivel. Criar uma aproximação de um Immersive Sim, atravéz de mecanicas objetivas. Priorizar aquelas que necessitam menos etapas - Cortar tempo de desenvolvimento. Uma mecanica buracratica é mais capaz de necessitar diversos sistemas especificos e não reaproveitaveis. 
@@ -630,12 +629,37 @@ Desfecho: A sua busca por vingança lhe levará até a —----------, responsáv
     - 5.
 - [ ] Revelar ao final que o Shotgun é uma imagem projetada do subconsciente do próprio protagonista.
 
+### 4.4 Formato da história
+
+Uma parte da história será contada por imagens em movimento que marcam o início e o fim dos capítulos. Essa decisão reúne as opções disponíveis: história em cutscene, história em quadrinhos ilustrada ou história em vídeo.
+
 ### 4.6 Pesquisa narrativa
 
 - [x] Resumir: durante uma ditadura militar, surge o movimento hip-hop.
 - [ ] Conceber personagens.
 - [ ] Escrever as possíveis narrativas.
 - [ ] Criar um baralho de 55 cartas para contar uma história.
+
+### 4.5 Finais
+
+#### Opção 1
+
+- Permitir escolher entre final bom e final ruim.
+  - **Final bom:** aprisionar Cthulhu para sempre usando o poder dos artefatos.
+  - **Final ruim:** invocar Cthulhu e deixá-lo governar o mundo.
+- Independentemente da escolha, retornar ao estágio anterior à última missão.
+- Permitir jogar livremente depois do fim e refazer a escolha.
+
+#### Opção 2
+
+- O jogador confronta o ditador ou a ditadora.
+- Vivencia uma morte do ego ao descobrir que seu parceiro era apenas um amigo imaginário.
+- Em sua busca por poder, o protagonista se torna pior e mais ganancioso que seu inimigo.
+
+#### Opções adicionais
+
+- Considerar um final aberto para Zona Show 2.
+- Considerar um final romântico: o par do jogador é raptado em algum ponto e resgatado ao final.
 
 ### 4.7 Pesquisa e aprendizado
 
@@ -714,6 +738,20 @@ Tanto por motivos de experiência de desenvolvimento, quanto de facilidade de de
 
 
 INACABADO A PARTIR DAQUI!!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### 7.2 Hardware e software de desenvolvimento **{TODO OG}**
 A escolha do software de desenvolvimento foi feito em duas etapas:
 A primeira foi escolher qual engine seria desenvolvida o jogo. Aqui tínhamos várias possibilidades, entre elas: Unity, Construct, Game Maker e Unreal. Quando decidimos que o jogo seria 3D, logo o Construct e o Game Maker foram descartados, por serem engines voltadas para o 2D. Já entre a Unity e a Unreal, acabamos optando pela Unity, por ser mais simples de atingir o visual desejado, e também pela experiência de desenvolvimento de todos integrantes do grupo.

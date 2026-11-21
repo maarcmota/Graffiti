@@ -3,9 +3,10 @@
 Dar enfase em praticas  reais do graffiti o maximo possivel. Criar uma aproximação de um Immersive Sim, atravéz de mecanicas objetivas. Priorizar aquelas que necessitam menos etapas - Cortar tempo de desenvolvimento. Uma mecanica buracratica é mais capaz de necessitar diversos sistemas especificos e não reaproveitaveis. 
 
 ## | Mecânicas | Aplicação no stealth |
-## [vv] | ----- | ----- | 
 
-ALTA COMPLEXIDADE DE DESENVOLVIMENTO
+## | Aprovadas | 
+
+(ALTA COMPLEXIDADE DE DESENVOLVIMENTO)
 | Movimento e exploração | 
 - [ ] Implementar movimentação.
   - [ ] Pulo na parede (Duplo Pulo)
@@ -45,6 +46,6 @@ ALTA COMPLEXIDADE DE DESENVOLVIMENTO
 (Skins de Camuflagem) (ALTA COMPLEXIDADE DE DESENVOLVIMENTO)
 | Camuflagem de Tinta | Bem parecido com a pele do Foxhunt, [https\://youtu.be/c46xM5-wScg?t=55](https://youtu.be/c46xM5-wScg?t=55) o jogo joga um balde de tinta especial e ativa um modo aonde ele se camufla repetindo a textura do cenario em volta\! |
 
-## [Xx] | ----- | ----- | 
+## | Backlog | 
 
 | Tinta no chão | Permitir movimentação rápida e silenciosa aonde voce pinta. (uma tinta especifica limitada, recurso raro) |
