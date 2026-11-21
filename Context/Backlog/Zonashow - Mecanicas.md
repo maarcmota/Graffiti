@@ -1,8 +1,6 @@
-## Mecanicas\! 
+# Mecanicas
 
 Dar enfase em praticas  reais do graffiti o maximo possivel. Criar uma aproximação de um Immersive Sim, atravéz de mecanicas objetivas. Priorizar aquelas que necessitam menos etapas - Cortar tempo de desenvolvimento. Uma mecanica buracratica é mais capaz de necessitar diversos sistemas especificos e não reaproveitaveis. 
-
-## | Mecânicas | Aplicação no stealth |
 
 ## | Aprovadas | 
 
