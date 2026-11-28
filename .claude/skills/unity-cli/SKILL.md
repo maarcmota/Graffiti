@@ -3,7 +3,7 @@ name: unity-cli
 description: "Install and use unity-mcp-cli: Node.js requirements, npm installation, npx, tool calls, JSON input files and troubleshooting."
 metadata:
   generated-by: unity-mcp
-  ai-game-dev: exclude
+  ai-game-dev: include
 ---
 # Unity CLI
 
@@ -11,7 +11,7 @@ Install and use `unity-mcp-cli` to call the engine's MCP tools from a terminal.
 
 ## Prerequisites
 
-Node.js ^20.19.0 or >=22.12.0 and npm are required. Node.js 21 is unsupported.
+Node.js 22.14 or later and npm are required.
 Check existing installations first:
 
 ```powershell

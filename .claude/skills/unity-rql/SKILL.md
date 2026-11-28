@@ -6,7 +6,7 @@ description: |-
   (create, add components, scenes, prefabs, assets, selection, Play Mode) and what installed extensions add.
 metadata:
   generated-by: unity-mcp
-  ai-game-dev: exclude
+  ai-game-dev: include
 ---
 # RQL — query and change the Unity Editor
 
@@ -54,6 +54,7 @@ Language rules:
 - Trigonometry is in radians: sin, cos, tan, asin, acos, atan, atan2(y, x), pi(), deg(x), rad(x); trigonometric results are rounded (sin(pi()) is 0). In a set value or call argument $count is the number of items entering the stage ($index runs 0 to $count - 1), so set position = [5 * cos(2 * pi() * $index / $count), 0, 5 * sin(2 * pi() * $index / $count)] lays the items out on a circle of radius 5.
 - A missing map entry reads as null: props["k"] == null and props["k"] is null are true without the entry, and has(props["k"]) tests whether it exists. A misspelt member is not null: it stays unknown and is reported.
 - Arguments by name: call Method({name: value, ...}) with one object literal that no overload takes as a whole binds each key to the parameter of that name; parameters left out keep their defaults, and an unknown name fails listing the parameters: range(0, 10) | call editor.CreateGameObject({name: "Tile" + $, primitive: "Cube", position: [$ * 2, 0, 0]}). Engine objects (scene objects, nodes, actors) are never built from an object literal: pass an existing one, e.g. ref("Type#id"). Value-like assets and owned subobjects that the host marks are built from a typed literal: set mesh = {$type: "TypeName", size: 2}.
+- Several statements in one call: separate them with ; and they run in order, each with its own result block headed [i/n] (at most 10 per call). A read runs every statement. In a change every statement must end with set or call and is its own all-or-nothing change that sees the earlier ones; nothing runs unless every statement parses and ends with set or call, and the first one that fails (a misspelt member included) stops the rest (the earlier changes stay).
 
 ```
 
@@ -115,13 +116,14 @@ Scenes, prefabs, assets, Editor state:
   settings | set build.scenes = append(build.scenes, "Assets/Scenes/Level2.unity")   scenes in the build
 ```
 
-Agent rules: Deleting (DeleteAsset, Destroy, script-delete, or AssetDatabase / File deletes in script-execute) takes two turns unless the user named the exact items or you created them yourself in this task: first list the exact candidates (rql-query, a dry_run=true mutation or a read-only snippet), show them and end your turn; delete only that list, in a separate call, after the user confirms. Otherwise never find and delete candidates in the same turn. After project files change outside the Editor (written to disk by you, a script or the user), run editor | call RefreshAssets() before reading or changing them: it imports them and reloads an open scene whose file changed (changed .cs files recompile and the scripts reload: retry a call that fails right after). When you map a name the user misspelt to a real one (an object, component or member), say so. Unity units are meters, degrees (rotation) and seconds.
+Agent rules: Deleting (DeleteAsset, Destroy, script-delete, or AssetDatabase / File deletes in csharp-exec) takes two turns unless the user named the exact items or you created them yourself in this task: first list the exact candidates (rql-query, a dry_run=true mutation or a read-only snippet), show them and end your turn; delete only that list, in a separate call, after the user confirms. Otherwise never find and delete candidates in the same turn. After project files change outside the Editor (written to disk by you, a script or the user), run editor | call RefreshAssets() before reading or changing them: it imports them and reloads an open scene whose file changed (changed .cs files recompile and the scripts reload: retry a call that fails right after). When you map a name the user misspelt to a real one (an object, component or member), say so. Unity units are meters, degrees (rotation) and seconds.
 
 
 ## Sources
 
 | Source | What |
 |---|---|
+| `assetStore` | Asset Store packages you own (My Assets, signed in) or downloaded: assetStore \| get packages \| where name contains "tree" \| select productId name downloaded sizeMB, then call Import() (returns its prefabs / materials) or OpenInPackageManager() to download; signedIn false: call SignIn() (opens Unity's sign-in for the user); calls Refresh, OpenStoreSearch(text), ImportFile(path) (rql-schema "assetStore") |
 | `componentTypes` | component types that can be added (name fullName namespace) |
 | `console` | captured Editor log entries, oldest first (last 1000): logType message timestamp stackTrace sequence |
 | `editor` | Editor state (isPlaying, isPaused, selection …) and operations: CreateGameObject, OpenScene, NewScene, SaveScenes, InstantiatePrefab, OpenPrefab / SavePrefab / ClosePrefab, CopyAsset / MoveAsset / DeleteAsset / CreateFolder, CreateMaterial, SaveAssets, RefreshAssets, AddTag / AddLayer, ClearConsole, ExecuteMenuItem (rql-schema "editor" for signatures) |
@@ -145,6 +147,7 @@ Agent rules: Deleting (DeleteAsset, Destroy, script-delete, or AssetDatabase / F
 - `com.IvanMurzak.Unity.MCP.Editor.Rql.Modules.UnityCoreModule`
 - `com.IvanMurzak.Unity.MCP.Editor.Rql.ToolTypesModule`
 - `com.IvanMurzak.Unity.MCP.Editor.Rql.Mathematics.MathematicsModule`
+- `com.IvanMurzak.Unity.MCP.Editor.Rql.AssetStore.AssetStoreModule`
 - `com.IvanMurzak.Unity.MCP.Editor.Rql.Lighting.LightingModule`
 - `com.IvanMurzak.Unity.MCP.Editor.Rql.Physics3D.PhysicsModule`
 
